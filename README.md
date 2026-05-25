@@ -342,12 +342,6 @@ Built with passion by the Celestium Team.
 https://github.com/CelestiumWorkHub/CelestiumVerse
 ```
 
-## Twitter / X
-
-```text
-https://x.com/celestium
-```
-
 ---
 
 # 🙏 Acknowledgements
