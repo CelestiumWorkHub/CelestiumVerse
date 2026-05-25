@@ -1,7 +1,7 @@
-# 🌐 AjunaVerse MVP
+# 🌐 Celestium
 
 <p align="center">
-  <img src="./client/public/here-banner.png" alt="AjunaVerse Banner" width="100%" />
+  <img src="./client/public/here-banner.png" alt="Celestium Banner" width="100%" />
 </p>
 
 [![Node.js](https://img.shields.io/badge/Node.js-v22-brightgreen)](https://nodejs.org/)
@@ -14,7 +14,7 @@
 
 ## 🚀 Introduction
 
-**AjunaVerse** is an immersive, decentralized Metaverse platform where users can explore, interact, and transact in a virtual world.  
+**Celestium** is an immersive, decentralized Metaverse platform where users can explore, interact, and transact in a virtual world.  
 It leverages blockchain technology for ownership, transparency, and verifiable scarcity of digital assets.
 
 **Key Features:**
