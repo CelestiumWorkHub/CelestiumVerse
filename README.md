@@ -88,51 +88,58 @@ Celestium enables players to:
 # 📁 Project Structure
 
 ```text
-celestium/
-│
-├── client/
-│   ├── public/
-│   │   ├── hero-banner.png
-│   │   └── favicon.ico
-│   │
-│   ├── src/
-│   │   ├── app/
-│   │   ├── components/
-│   │   ├── hooks/
-│   │   ├── pages/
-│   │   ├── styles/
-│   │   ├── utils/
-│   │   └── services/
-│   │
-│   ├── package.json
-│   └── tsconfig.json
-│
-├── server/
-│   ├── src/
-│   │   ├── api/
-│   │   ├── socket/
-│   │   ├── database/
-│   │   ├── services/
-│   │   ├── middleware/
-│   │   └── index.ts
-│   │
-│   ├── package.json
-│   └── tsconfig.json
-│
-├── blockchain/
-│   ├── contracts/
-│   ├── scripts/
-│   ├── deployments/
-│   └── utils/
-│
-├── docker/
-├── docs/
-├── scripts/
-├── tests/
-├── .env.example
-├── docker-compose.yml
-├── package.json
-└── README.md
+├───.vscode
+├───client
+│   ├───public
+│   └───src
+│       ├───apis
+│       ├───assets
+│       │   ├───fonts
+│       │   ├───game
+│       │   │   ├───cards
+│       │   │   └───cards-svg
+│       │   ├───icons
+│       │   └───img
+│       ├───components
+│       │   ├───buttons
+│       │   ├───cookies
+│       │   ├───decoration
+│       │   ├───forms
+│       │   ├───game
+│       │   │   ├───Betslider
+│       │   │   ├───BrandingImage
+│       │   │   └───Seat
+│       │   ├───icons
+│       │   ├───layout
+│       │   ├───loading
+│       │   ├───logo
+│       │   ├───modals
+│       │   ├───navigation
+│       │   ├───routing
+│       │   ├───typography
+│       │   └───user
+│       ├───context
+│       │   ├───game
+│       │   ├───global
+│       │   ├───localization
+│       │   ├───modal
+│       │   └───websocket
+│       ├───game
+│       ├───helpers
+│       ├───hooks
+│       ├───pages
+│       │   └───ConnectWallet
+│       ├───styles
+│       └───utils
+├───config
+├───controllers
+├───game
+├───middleware
+├───models
+├───routes
+│   └───api
+├───socket
+└───utils
 ```
 
 ---
