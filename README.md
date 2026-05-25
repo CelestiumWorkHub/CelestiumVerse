@@ -1,7 +1,7 @@
 # 🌌 Celestium
 
 <p align="center">
-  <img src="./client/public/hero-banner.png" alt="Celestium Banner" width="100%" />
+  <img src="./client/public/here-banner.png" alt="Celestium Banner" width="100%" />
 </p>
 
 <p align="center">
