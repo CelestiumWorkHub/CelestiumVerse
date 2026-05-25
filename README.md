@@ -1,9 +1,5 @@
 # 🌐 Celestium
 
-<p align="center">
-  <img src="./client/public/here-banner.png" alt="Celestium Banner" width="100%" />
-</p>
-
 [![Node.js](https://img.shields.io/badge/Node.js-v22-brightgreen)](https://nodejs.org/)
 [![React](https://img.shields.io/badge/React-18-blue)](https://reactjs.org/)
 [![Polygon](https://img.shields.io/badge/Polygon-EVM-purple)](https://polygon.technology/)
