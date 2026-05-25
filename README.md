@@ -54,8 +54,8 @@ Celestium enables players to:
 # 🧠 Tech Stack
 
 ## Frontend
-- React 18
-- Next.js 14
+- React 19
+- Next.js 16
 - TypeScript
 - Tailwind CSS
 - Framer Motion
@@ -69,7 +69,7 @@ Celestium enables players to:
 - TypeScript
 
 ## Blockchain
-- Solana
+- Polygon
 - Web3.js
 - Wallet Adapter
 
@@ -148,12 +148,12 @@ Celestium enables players to:
 
 Before starting, install the following:
 
-- Node.js v18+
+- Node.js v20+
 - npm or yarn
 - Git
 - MongoDB
-- Solana CLI
-- Phantom Wallet
+- Polygon
+- MataMask Wallet
 
 ---
 
@@ -180,34 +180,6 @@ or
 yarn install
 ```
 
----
-
-## 3️⃣ Configure Environment Variables
-
-Create `.env` files inside both client and server folders.
-
----
-
-## Frontend `.env`
-
-```env
-NEXT_PUBLIC_API_URL=http://localhost:4000
-NEXT_PUBLIC_SOLANA_NETWORK=devnet
-NEXT_PUBLIC_RPC_URL=https://api.devnet.solana.com
-```
-
----
-
-## Backend `.env`
-
-```env
-PORT=4000
-MONGODB_URI=mongodb://localhost:27017/celestium
-SOLANA_RPC_URL=https://api.devnet.solana.com
-NODE_ENV=development
-```
-
----
 
 # ▶️ Run Development Servers
 
@@ -249,9 +221,7 @@ http://localhost:4000
 
 Celestium supports:
 
-- Phantom Wallet
-- Solflare
-- Backpack Wallet
+- MetaMask Wallet
 - Coinbase Wallet
 
 Players can securely:
@@ -260,120 +230,6 @@ Players can securely:
 - Own NFTs
 - Trade digital assets
 - Join multiplayer gameplay
-
----
-
-# 🎮 Gameplay Features
-
-## 🌍 Open World Exploration
-
-Explore immersive metaverse environments with real-time interactions.
-
----
-
-## ⚔️ Multiplayer Battles
-
-Fight against players in PvP arenas and cooperative missions.
-
----
-
-## 🪙 NFT Economy
-
-Own and trade unique blockchain-based digital assets.
-
----
-
-## 🏆 Achievement System
-
-Earn achievements, unlock rewards, and level up your profile.
-
----
-
-# 📊 API Endpoints
-
-## Authentication
-
-```http
-POST /api/auth/login
-```
-
----
-
-## User Profile
-
-```http
-GET /api/user/profile
-```
-
----
-
-## Leaderboards
-
-```http
-GET /api/leaderboards
-```
-
----
-
-## NFT Inventory
-
-```http
-GET /api/inventory
-```
-
----
-
-## Marketplace Listings
-
-```http
-GET /api/marketplace
-```
-
----
-
-# 🧪 Testing
-
-Run all tests:
-
-```bash
-npm run test
-```
-
----
-
-## Frontend Tests
-
-```bash
-cd client
-npm run test
-```
-
----
-
-## Backend Tests
-
-```bash
-cd server
-npm run test
-```
-
----
-
-# 🐳 Docker Deployment
-
-Start all services:
-
-```bash
-docker-compose up -d
-```
-
----
-
-## Stop Services
-
-```bash
-docker-compose down
-```
 
 ---
 
@@ -496,7 +352,7 @@ https://x.com/celestium
 
 # 🙏 Acknowledgements
 
-- Solana
+- Polygon
 - React
 - Next.js
 - Three.js
