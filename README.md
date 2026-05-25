@@ -162,7 +162,7 @@ Before starting, install the following:
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/celestium.git
+git clone https://github.com/CelestiumWorkHub/CelestiumVerse.git
 cd celestium
 ```
 
@@ -194,7 +194,6 @@ Create `.env` files inside both client and server folders.
 NEXT_PUBLIC_API_URL=http://localhost:4000
 NEXT_PUBLIC_SOLANA_NETWORK=devnet
 NEXT_PUBLIC_RPC_URL=https://api.devnet.solana.com
-NEXT_PUBLIC_PROGRAM_ID=your_program_id
 ```
 
 ---
@@ -204,7 +203,6 @@ NEXT_PUBLIC_PROGRAM_ID=your_program_id
 ```env
 PORT=4000
 MONGODB_URI=mongodb://localhost:27017/celestium
-JWT_SECRET=your_secret_key
 SOLANA_RPC_URL=https://api.devnet.solana.com
 NODE_ENV=development
 ```
@@ -485,13 +483,7 @@ Built with passion by the Celestium Team.
 ## GitHub
 
 ```text
-https://github.com/yourusername/celestium
-```
-
-## Discord
-
-```text
-https://discord.gg/yourserver
+https://github.com/CelestiumWorkHub/CelestiumVerse
 ```
 
 ## Twitter / X
