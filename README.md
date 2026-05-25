@@ -1,4 +1,4 @@
-# 🌌 Celestium
+#  Celestium
 
 <p align="center">
   <img src="./client/public/here-banner.png" alt="Celestium Banner" width="100%" />
